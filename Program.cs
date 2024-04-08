@@ -21,7 +21,6 @@
             {
                 Console.WriteLine("You have entered {0} which is lower than {1} which is the minimum", n, min);
                 Console.WriteLine("Resulting integer: {0}", min);
-
             }
             else if (n > max)
             {
