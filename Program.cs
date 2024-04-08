@@ -28,6 +28,11 @@
                 Console.WriteLine("You have entered {0} which is greater than {1} which is the maximum", n, max);
                 Console.WriteLine("Resulting integer: {0}", max);
             }
+	    else
+	    {
+		Console.WriteLine("You have entered {0} which is within limits");
+		Console.WriteLine("Resulting integer: {0}", n);
+	    }
         }
     }
 }
